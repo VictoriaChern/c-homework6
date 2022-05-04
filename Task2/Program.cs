@@ -3,6 +3,8 @@ using System.Linq;
 using static System.Console;
 
 Clear();
+WriteLine("y = k1 * x + b1");
+WriteLine("y = k2 * x + b2");
 printResult(askNumbers());
 
 int[] askNumbers() {
